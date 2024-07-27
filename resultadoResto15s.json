@@ -1,13 +1,14 @@
 [
   {
     "puesto": "1",
-    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/bd282a00cf78358351e39b24b93d071a4be1e80e8721ede4280e8ca7e51fd59a.jpg",
-    "id": "314",
-    "nombre": "Hanafuda",
+    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/1b228ae319ae1988ccfc143ab5b5a7d60fd7919660db82a1a090c5fab01cca75.jpg",
+    "id": "366",
+    "nombre": "Magnificent",
     "miembros": "25/25",
-    "reputacion": 181303,
+    "reputacion": 185446,
     "diferencia": 0,
-    "gap": 0
+    "gap": 0,
+    "gapsuperior": 0
   },
   {
     "puesto": "2",
@@ -15,19 +16,21 @@
     "id": "392",
     "nombre": "Ninja Saga Clan",
     "miembros": "25/25",
-    "reputacion": 181174,
+    "reputacion": 185293,
     "diferencia": 0,
-    "gap": 129
+    "gap": 153,
+    "gapsuperior": 153
   },
   {
     "puesto": "3",
-    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/1b228ae319ae1988ccfc143ab5b5a7d60fd7919660db82a1a090c5fab01cca75.jpg",
-    "id": "366",
-    "nombre": "Magnificent",
+    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/bd282a00cf78358351e39b24b93d071a4be1e80e8721ede4280e8ca7e51fd59a.jpg",
+    "id": "314",
+    "nombre": "Hanafuda",
     "miembros": "25/25",
-    "reputacion": 181158,
+    "reputacion": 184788,
     "diferencia": 0,
-    "gap": 145
+    "gap": 658,
+    "gapsuperior": 505
   },
   {
     "puesto": "4",
@@ -35,29 +38,32 @@
     "id": "259",
     "nombre": "Draw Sword Guild",
     "miembros": "25/25",
-    "reputacion": 181104,
-    "diferencia": 10,
-    "gap": 199
+    "reputacion": 183234,
+    "diferencia": 0,
+    "gap": 2212,
+    "gapsuperior": 1554
   },
   {
     "puesto": "5",
+    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/0a41ef98f08f071d8d3cc4d5e15f9b46b7a51b5ad75813afc904549812d0ac99.jpg",
+    "id": "101",
+    "nombre": "Peaky Blinders",
+    "miembros": "25/25",
+    "reputacion": 181196,
+    "diferencia": 0,
+    "gap": 4250,
+    "gapsuperior": 2038
+  },
+  {
+    "puesto": "6",
     "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/e2cafff7a9798119a367309b29a0f287072ff0a493a883ca0fa1af501e76e83e.jpg",
     "id": "376",
     "nombre": "Alianza Latina",
     "miembros": "25/25",
-    "reputacion": 180946,
+    "reputacion": 181101,
     "diferencia": 0,
-    "gap": 357
-  },
-  {
-    "puesto": "6",
-    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/9f72ca4d1b541fa7c5c6afb616f5789b6e7ce7f3beb7f14c06b02601895469fd.jpg",
-    "id": "177",
-    "nombre": "Lakas Pinas Clan II",
-    "miembros": "25/25",
-    "reputacion": 171429,
-    "diferencia": 0,
-    "gap": 9874
+    "gap": 4345,
+    "gapsuperior": 95
   },
   {
     "puesto": "7",
@@ -65,39 +71,43 @@
     "id": "396",
     "nombre": "Runcandel",
     "miembros": "25/25",
-    "reputacion": 167500,
+    "reputacion": 174097,
     "diferencia": 0,
-    "gap": 13803
+    "gap": 11349,
+    "gapsuperior": 7004
   },
   {
     "puesto": "8",
-    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/a2367751cd35597afbe530ef9a9cd0afc6c346ca205a38eb40ff17ba1708fd11.jpg",
-    "id": "393",
-    "nombre": "WhatsApp Español",
-    "miembros": "23/25",
-    "reputacion": 165789,
+    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/9f72ca4d1b541fa7c5c6afb616f5789b6e7ce7f3beb7f14c06b02601895469fd.jpg",
+    "id": "177",
+    "nombre": "Lakas Pinas Clan II",
+    "miembros": "25/25",
+    "reputacion": 173964,
     "diferencia": 0,
-    "gap": 15514
+    "gap": 11482,
+    "gapsuperior": 133
   },
   {
     "puesto": "9",
-    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/0a41ef98f08f071d8d3cc4d5e15f9b46b7a51b5ad75813afc904549812d0ac99.jpg",
-    "id": "101",
-    "nombre": "Peaky Blinders",
-    "miembros": "24/25",
-    "reputacion": 164769,
+    "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/a2367751cd35597afbe530ef9a9cd0afc6c346ca205a38eb40ff17ba1708fd11.jpg",
+    "id": "393",
+    "nombre": "WhatsApp Español",
+    "miembros": "22/25",
+    "reputacion": 169120,
     "diferencia": 0,
-    "gap": 16534
+    "gap": 16326,
+    "gapsuperior": 4844
   },
   {
     "puesto": "10",
     "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/ebe878b374427f5bd8c2d53a0c76de1620a3b22533eef152393e45e0d59accec.jpg",
     "id": "377",
     "nombre": "Lakas Pinas Clan III",
-    "miembros": "21/25",
-    "reputacion": 164107,
+    "miembros": "22/25",
+    "reputacion": 167538,
     "diferencia": 0,
-    "gap": 17196
+    "gap": 17908,
+    "gapsuperior": 1582
   },
   {
     "puesto": "11",
@@ -105,29 +115,32 @@
     "id": "159",
     "nombre": "LAKAS PINAS CLAN",
     "miembros": "24/25",
-    "reputacion": 163696,
+    "reputacion": 166723,
     "diferencia": 0,
-    "gap": 17607
+    "gap": 18723,
+    "gapsuperior": 815
   },
   {
     "puesto": "12",
     "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/2beabdec92b4f84fe5e51480570c14089c0a6c0065a99d4156fdc87a3afb02ee.jpg",
     "id": "214",
     "nombre": "Black Deer",
-    "miembros": "21/25",
-    "reputacion": 162754,
+    "miembros": "20/25",
+    "reputacion": 165016,
     "diferencia": 0,
-    "gap": 18549
+    "gap": 20430,
+    "gapsuperior": 1707
   },
   {
     "puesto": "13",
     "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/4f61fe69d29b9e1d72ffe5a731d158c21f8801ced686564fee105a9b8f466402.jpg",
     "id": "153",
     "nombre": "Night Raid Pro",
-    "miembros": "24/25",
-    "reputacion": 153858,
+    "miembros": "25/25",
+    "reputacion": 156942,
     "diferencia": 0,
-    "gap": 27445
+    "gap": 28504,
+    "gapsuperior": 8074
   },
   {
     "puesto": "14",
@@ -135,19 +148,21 @@
     "id": "398",
     "nombre": "Foundation",
     "miembros": "25/25",
-    "reputacion": 153065,
+    "reputacion": 155203,
     "diferencia": 0,
-    "gap": 28238
+    "gap": 30243,
+    "gapsuperior": 1739
   },
   {
     "puesto": "15",
     "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/0bd6d81533138dfe550646e09e8c74c2afe8c6ec08d2ddc6c661673daec40a7a.jpg",
     "id": "162",
     "nombre": "Pinoy Finest",
-    "miembros": "20/25",
-    "reputacion": 152773,
+    "miembros": "25/25",
+    "reputacion": 154760,
     "diferencia": 0,
-    "gap": 28530
+    "gap": 30686,
+    "gapsuperior": 443
   },
   {
     "puesto": "16",
@@ -157,7 +172,8 @@
     "miembros": "24/25",
     "reputacion": 151084,
     "diferencia": 0,
-    "gap": 30219
+    "gap": 34362,
+    "gapsuperior": 3676
   },
   {
     "puesto": "17",
@@ -167,7 +183,8 @@
     "miembros": "23/25",
     "reputacion": 150701,
     "diferencia": 0,
-    "gap": 30602
+    "gap": 34745,
+    "gapsuperior": 383
   },
   {
     "puesto": "18",
@@ -175,9 +192,10 @@
     "id": "345",
     "nombre": "Zheninjas",
     "miembros": "24/25",
-    "reputacion": 143738,
+    "reputacion": 146602,
     "diferencia": 0,
-    "gap": 37565
+    "gap": 38844,
+    "gapsuperior": 4099
   },
   {
     "puesto": "19",
@@ -185,9 +203,10 @@
     "id": "380",
     "nombre": "ANBU RO",
     "miembros": "10/25",
-    "reputacion": 141311,
+    "reputacion": 145156,
     "diferencia": 0,
-    "gap": 39992
+    "gap": 40290,
+    "gapsuperior": 1446
   },
   {
     "puesto": "20",
@@ -195,9 +214,10 @@
     "id": "248",
     "nombre": "Shinigami Clan",
     "miembros": "16/25",
-    "reputacion": 121455,
+    "reputacion": 123580,
     "diferencia": 0,
-    "gap": 59848
+    "gap": 61866,
+    "gapsuperior": 21576
   },
   {
     "puesto": "21",
@@ -205,19 +225,21 @@
     "id": "134",
     "nombre": "Ex ninja",
     "miembros": "18/25",
-    "reputacion": 94096,
+    "reputacion": 99596,
     "diferencia": 0,
-    "gap": 87207
+    "gap": 85850,
+    "gapsuperior": 23984
   },
   {
     "puesto": "22",
     "image": "https://ninja-storm.nyc3.cdn.digitaloceanspaces.com/avatar/b7243c633cb15c811b681988e1b9fcc20a43ac224f7669ffdde31ec2e34a1238.jpg",
     "id": "198",
     "nombre": "VivaMax Clan PH v.2",
-    "miembros": "13/25",
-    "reputacion": 86120,
+    "miembros": "15/25",
+    "reputacion": 95249,
     "diferencia": 0,
-    "gap": 95183
+    "gap": 90197,
+    "gapsuperior": 4347
   },
   {
     "puesto": "23",
@@ -227,7 +249,8 @@
     "miembros": "25/25",
     "reputacion": 71522,
     "diferencia": 0,
-    "gap": 109781
+    "gap": 113924,
+    "gapsuperior": 23727
   },
   {
     "puesto": "24",
@@ -235,9 +258,10 @@
     "id": "402",
     "nombre": "Kimetsu No Yaiba",
     "miembros": "25/25",
-    "reputacion": 55685,
+    "reputacion": 56382,
     "diferencia": 0,
-    "gap": 125618
+    "gap": 129064,
+    "gapsuperior": 15140
   },
   {
     "puesto": "25",
@@ -247,6 +271,7 @@
     "miembros": "7/25",
     "reputacion": 43306,
     "diferencia": 0,
-    "gap": 137997
+    "gap": 142140,
+    "gapsuperior": 13076
   }
 ]

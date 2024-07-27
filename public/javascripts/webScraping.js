@@ -38,17 +38,18 @@ async function getUser2() {
       
       await new Promise((resolve) => setTimeout(resolve, 60000));
       
-    
       const nuevosDatos = await getUser("nuevosdatos.json");
 
       const resultadosResto = nuevosDatos.map((nuevoDato, index) => {
         const dato = datos.find(d => d.id === nuevoDato.id);
-        
+       
+
         if (dato) {
           return {
             ...nuevoDato,
             diferencia: nuevoDato.reputacion - dato.reputacion,
-            gap: nuevosDatos[0].reputacion - nuevoDato.reputacion
+            gap: nuevosDatos[0].reputacion - nuevoDato.reputacion,
+           
           };
         } else {
           return nuevoDato;
@@ -57,6 +58,7 @@ async function getUser2() {
 
       await fs.writeFile('resultadoResto.json', JSON.stringify(resultadosResto, null, 2), 'utf-8');
     
+      console.log('\x1b[32m%s\x1b[0m', 'Resultado de la resta guardado en resultadoResto.json');
     }
   } catch (error) {
     console.error("Error en getUser2:", error);

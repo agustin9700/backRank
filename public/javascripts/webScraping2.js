@@ -43,12 +43,16 @@ async function getUser2() {
 
       const resultadosResto = nuevosDatos.map((nuevoDato, index) => {
         const dato = datos.find(d => d.id === nuevoDato.id);
+        const gapsuperior = index > 0
+        ? nuevosDatos[index - 1].reputacion - nuevoDato.reputacion
+        : 0; // Si es el primer elemento, no hay anterior
         
         if (dato) {
           return {
             ...nuevoDato,
             diferencia: nuevoDato.reputacion - dato.reputacion,
-            gap: nuevosDatos[0].reputacion - nuevoDato.reputacion
+            gap: nuevosDatos[0].reputacion - nuevoDato.reputacion,
+            gapsuperior
           };
         } else {
           return nuevoDato;
