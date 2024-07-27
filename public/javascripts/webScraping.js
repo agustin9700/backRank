@@ -37,7 +37,7 @@ async function getUser2() {
       
       await new Promise((resolve) => setTimeout(resolve, 60000));
       
-      console.log(`Ejecución nuevos datos: ${i}`);
+    
       const nuevosDatos = await getUser("nuevosdatos.json");
 
       const resultadosResto = nuevosDatos.map((nuevoDato, index) => {
@@ -55,7 +55,7 @@ async function getUser2() {
       });
 
       await fs.writeFile('resultadoResto.json', JSON.stringify(resultadosResto, null, 2), 'utf-8');
-      console.log('Resultado de la resta guardado en resultadoResto.json');
+    
     }
   } catch (error) {
     console.error("Error en getUser2:", error);

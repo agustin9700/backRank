@@ -32,12 +32,12 @@ async function getUser(nombreArchivo) {
 async function getUser2() {
   try {
     for (let i = 0; i < 99999; i++) {
-      console.log(`Ejecución: ${i}`);
+      console.log(`Ejecución NewDatos: ${i}`);
       const datos = await getUser("datos15s.json");
       
       await new Promise((resolve) => setTimeout(resolve, 15000));
       
-      console.log(`Ejecución nuevos datos: ${i}`);
+     
       const nuevosDatos = await getUser("nuevosdatos15s.json");
 
       const resultadosResto = nuevosDatos.map((nuevoDato, index) => {
@@ -55,7 +55,7 @@ async function getUser2() {
       });
 
       await fs.writeFile('resultadoResto15s.json', JSON.stringify(resultadosResto, null, 2), 'utf-8');
-      console.log('Resultado de la resta guardado en resultadoResto15s.json');
+    
     }
   } catch (error) {
     console.error("Error en getUser2:", error);
