@@ -1,6 +1,6 @@
-const axios = require("axios");
-const cheerio = require("cheerio");
-const fs = require("fs").promises;
+const fs = require('fs').promises;
+const axios = require('axios');
+const cheerio = require('cheerio');
 
 async function getUser(nombreArchivo) {
   try {
@@ -48,7 +48,6 @@ async function getUser2() {
             ...nuevoDato,
             diferencia: nuevoDato.reputacion - dato.reputacion,
             gap: nuevosDatos[0].reputacion - nuevosDatos[index].reputacion
-          
           };
         }
         return dato;
