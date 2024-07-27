@@ -15,25 +15,25 @@
 
 // }
 
-const fs = require('fs');
+const fs = require('fs').promises;
 
-module.exports = function(req, res) {
-    fs.readFile('resultadoResto.json', 'utf-8', (err, data) => {
-        if (err) {
-            console.error('Error al leer el archivo:', err);
-            res.status(500).send('Error al leer el archivo JSON');
-            return;
-        }
-        
+module.exports = async function(req, res) {
+    try {
+        const data = await fs.readFile('resultadoResto.json', 'utf-8');
         let jsonData;
+
         try {
             jsonData = JSON.parse(data);
         } catch (parseErr) {
             console.error('Error al analizar el JSON:', parseErr);
-            res.status(500).send('Error al analizar el archivo JSON');
-            return;
+            console.error('Contenido del archivo problemático:', data);
+            return res.status(500).send('Error al analizar el archivo JSON');
         }
 
         res.send(jsonData);
-    });
-}
+    } catch (err) {
+        console.error('Error al leer el archivo:', err);
+        res.status(500).send('Error al leer el archivo JSON');
+    }
+};
+
