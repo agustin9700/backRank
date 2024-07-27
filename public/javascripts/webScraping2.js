@@ -32,7 +32,8 @@ async function getUser(nombreArchivo) {
 async function getUser2() {
   try {
     for (let i = 0; i < 99999; i++) {
-      console.log("\x1b[32m",`Ejecución datos 15s: ${i}`);
+      console.log('\x1b[32m%s\x1b[0m', `Ejecución datos 15s: ${i}`);
+
       const datos = await getUser("datos15s.json");
       
       await new Promise((resolve) => setTimeout(resolve, 15000));
